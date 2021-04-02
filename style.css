@@ -1,0 +1,34 @@
+body{
+    background-color:peachpuff;
+    display:flex;
+    margin:0 auto;
+    width:30%;
+    margin-top:30px;
+}
+
+.result{
+    width:300px;
+    background-color: antiquewhite;
+    margin-right:30px;
+    border:1px solid rgb(165, 163, 163);
+}
+.button{
+    width:200px;
+}
+
+button{
+    width:100%;
+    height:50px;
+    background-color: rgb(177, 159, 136);
+    outline: none;
+    border:none;
+    border-radius:10px;
+    color:white;
+    font-size:16px;
+    font-weight: 700;
+}
+
+button:active{
+    transform: scale(0.90);
+    transition:transform 0.3s;
+}
